@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Tomibun</title>
+</head>
+
+<body>
+    <div id="banner-top">
+        <img src="image/BN_Top.jpg" alt="">
+    </div>
+    <header>
+        <div class="container">
+            <div class="_col-content">
+                <div class="btn-toggle-menu">
+                    <i class="fa fa-bars i-toggle-menu" aria-hidden="true"></i>
+                </div>
+                <div class="_logo" id="_logo">
+                    <a href="#">
+                        <img src="image/logo.jpg" alt="">
+                    </a>
+                </div>
+                <div class="_input-search">
+                    <form action="" method="">
+                        <select name="sp_th" id="sp_th">
+                            <option value="">Tất cả</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="volvo">Volvo</option>
+                        </select>
+                        <input type="text" name="searchPro" id="searchPro" placeholder="Tìm sản phẩm, thương hiệu bạn mong">
+                        <button type="submit" name="btn_submitPro" class="uppercase">tìm kiếm</button>
+                    </form>
+
+                </div>
+                <a href="#" id="_account">
+                    <div class="_account">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        <div class="_content-acc">
+                            <p>Đăng nhập/ Đăng ký</p>
+                            <span>Tài khoản và đơn hàng</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="_cart">
+                    <p>Giỏ hàng</p>
+                    <span>0 sản phẩm</span>
+                </a>
+                <a href="" class="_cart-img">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span class="number_product">10</span>
+                </a>
+                <div class="btn-toggle-search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3" id="_col-menu">
+                    <div class="_col-content">
+                        <div class="_row-title-menu">
+                            <div class="_bar">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <p class="uppercase">danh mục sản phẩm</p>
+                            <div class="btn-toggle-close"><i class="fa fa-times btn-close-menu" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="_menu">
+                            <ul class="_menu-lv1">
+                                <li class="_item-lv1">
+                                    <a href="#" class="uppercase a-lv1"><img src="image/trangdiem.png" class="_icon-menu">trang điểm</a>
+                                    <ul class="_menu-lv2 row">
+                                        <li class="_item-lv2 col-sm-3"><a href="https://www.facebook.com/">sp1</a></li>
+                                        <li class="_item-lv2 col-sm-3"><a href="https://www.facebook.com/">sp1</a></li>
+                                        <li class="_item-lv2 col-sm-3"><a href="https://www.facebook.com/">sp1</a></li>
+                                        <li class="_item-lv2 col-sm-3"><a href="https://www.facebook.com/">sp1</a></li>
+                                        <li class="_item-lv2 col-sm-3"><a href="https://www.facebook.com/">sp1</a></li>
+                                        <li class="_item-lv2 col-sm-3"><a href="https://www.facebook.com/">sp1</a></li>
+                                        <li class="_item-lv2 col-sm-3"><a href="https://www.facebook.com/">sp1</a></li>
+                                        <li class="_item-lv2 col-sm-3"><a href="https://www.facebook.com/">sp1</a></li>
+                                    </ul>
+                                </li>
+                                <li class="_item-lv1">
+                                    <a href="#" class="uppercase a-lv1"><img src="image/chamsocda.png" class="_icon-menu">CHĂM SÓC DA</a>
+                                    <ul class="_menu-lv2 row">
+                                        <li class="_item-lv2 col-sm-3"><a href="#">sp2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="_item-lv1">
+                                    <a href="#" class="uppercase a-lv1"><img src="image/bodycare.png" class="_icon-menu">BODYCARE</a>
+                                    <ul class="_menu-lv2 row">
+                                        <li class="_item-lv2 col-sm-3"><a href="#">sp3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="_item-lv1">
+                                    <a href="#" class="uppercase a-lv1"><img src="image/chamsoctoc.png" class="_icon-menu">CHĂM SÓC TÓC</a>
+                                    <ul class="_menu-lv2 row">
+                                        <li class="_item-lv2 col-sm-3"><a href="#">sp4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="_item-lv1">
+                                    <a href="#" class="uppercase a-lv1"><img src="image/nuochoa.png" class="_icon-menu">NƯỚC HOA</a>
+                                    <ul class="_menu-lv2 row">
+                                        <li class="_item-lv2 col-sm-3"><a href="#">sp5</a></li>
+                                    </ul>
+                                </li>
+                                <li class="_item-lv1">
+                                    <a href="#" class="uppercase a-lv1"><img src="image/tpcn.png" class="_icon-menu">THỰC PHẨM CHỨC NĂNG</a>
+                                    <ul class="_menu-lv2 row">
+                                        <li class="_item-lv2 col-sm-3"><a href="#">sp6</a></li>
+                                    </ul>
+                                </li>
+                                <li class="_item-lv1">
+                                    <a href="#" class="uppercase a-lv1"><img src="image/mevabe.png" class="_icon-menu">MẸ VÀ BÉ</a>
+                                    <ul class="_menu-lv2 row">
+                                        <li class="_item-lv2 col-sm-3"><a href="#">sp7</a></li>
+                                    </ul>
+                                </li>
+                                <li class="_item-lv1">
+                                    <a href="#" class="uppercase a-lv1"><img src="image/dogiadung.png" class="_icon-menu">ĐỒ GIA DỤNG</a>
+                                    <ul class="_menu-lv2 row">
+                                        <li class="_item-lv2 col-sm-3"><a href="#">sp8</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-9" id="_col-slider-banner">
+                    <div class="_col-content">
+                        <div class="_slider-banner">
+                            <div class="_box-slide-banner">
+                                <a href="#">
+                                    <img src="image/sl-bn1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="_box-slide-banner">
+                                <a href="#">
+                                    <img src="image/sl-bn1.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="_tab-banner">
+                            <div class="row">
+                                <div class="col-xs-6 _box-img-tab">
+                                    <a href="">
+                                        <img src="image/img-tab1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 _box-img-tab">
+                                    <a href="">
+                                        <img src="image/img-tab2.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="uu-dai">
+            <div class="container">
+                <div class="_col-content">
+                    <div class="_col-title">
+                        <div class="_col-box">
+                            <img src="image/logo-ud.png" alt="">
+                            <h3 class="_s-title">Ưu đãi trong tuần</h3>
+                        </div>
+                    </div>
+                    <div class="_list-product-ud">
+                        <div class="_box-sp">
+                            <div class="img">
+                                <a href="#"><img src="image/ud1.jpg" alt=""></a>
+                            </div>
+                            <div class="_title-sp">
+                                <a href="#" class="uppercase text-center">TINH CHẤT SOME BY MI AHA...</a>
+                            </div>
+                            <div class="_price">
+                                <span class="_price-ov">408,000 VNĐ</span>
+                                <span class="_price-und">Liên hệ</span>
+                            </div>
+                        </div>
+                        <div class="_box-sp">
+                            <div class="img">
+                                <a href="#"><img src="image/ud2.jpg" alt=""></a>
+                            </div>
+                            <div class="_title-sp">
+                                <a href="#" class="uppercase text-center">TINH CHẤT SOME BY MI AHA...</a>
+                            </div>
+                            <div class="_price">
+                                <span class="_price-ov">408,000 VNĐ</span>
+                                <span class="_price-und">Liên hệ</span>
+                            </div>
+                        </div>
+                        <div class="_box-sp">
+                            <div class="img">
+                                <a href="#"><img src="image/ud3.jpg" alt=""></a>
+                            </div>
+                            <div class="_title-sp">
+                                <a href="#" class="uppercase text-center">TINH CHẤT SOME BY MI AHA...</a>
+                            </div>
+                            <div class="_price">
+                                <span class="_price-ov">408,000 VNĐ</span>
+                                <span class="_price-und">Liên hệ</span>
+                            </div>
+                        </div>
+                        <div class="_box-sp">
+                            <div class="img">
+                                <a href="#"><img src="image/ud4.jpg" alt=""></a>
+                            </div>
+                            <div class="_title-sp">
+                                <a href="#" class="uppercase text-center">TINH CHẤT SOME BY MI AHA...</a>
+                            </div>
+                            <div class="_price">
+                                <span class="_price-ov">408,000 VNĐ</span>
+                                <span class="_price-und">Liên hệ</span>
+                            </div>
+                        </div>
+                        <div class="_box-sp">
+                            <div class="img">
+                                <a href="#"><img src="image/ud5.jpg" alt=""></a>
+                            </div>
+                            <div class="_title-sp">
+                                <a href="#" class="uppercase text-center">TINH CHẤT SOME BY MI AHA...</a>
+                            </div>
+                            <div class="_price">
+                                <span class="_price-ov">408,000 VNĐ</span>
+                                <span class="_price-und">Liên hệ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5" id="_ab-col-left">
+                        <div class="_col-content">
+                            <div class="_box-img">
+                                <img src="image/bg-bn.jpg" alt="">
+                            </div>
+                            <div class="_box-menu">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Giới thiệu</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Tầm nhìn -  Sứ mệnh</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Đội ngũ chuyên gia</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Câu lạc bộ khách hàng</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-7" id="_ab-col-right">
+                        <div class="_col-content">
+                            <div class="_row-title">
+                                <p class="uppercase">về chúng tôi -</p>
+                            </div>
+                            <h2 class="uppercase cty-name">CÔNG TY TNHH TOMIBUN VIỆT NAM</h2>
+                            <div class="_row-text">
+                                <p>CÔNG TY TNHH TOMIBUN VIỆT NAM ( Tên quốc tế:TOMIBUN VIETNAM CO., LTD ) là chuỗi bán lẻ hàng nhập khẩu hàng đầu tại Nhật Bản được thành lập 1974, tại Kisarazu, thành phố Kimitsu, tỉnh Chiba Nhật Bản Với mong muốn đưa các
+                                    sản phẩm Nhật cũng như nền văn hóa Nhật đến Việt Nam. Năm 2019 siêu thị bán lẻ thực phẩm đầu tiên được mở tại 535 Kim Mã thuộc trung tâm thành phố Hà Nội, khu phố nhiều người nhật sinh sống. cùng sự nỗ lực không ngừng
+                                    phát triển vươn lên, từ năm 2019 TOMIBUN đã đưa vào hoạt động chuỗi siêu thị Nhật Bản với 5 cửa hàng tại Thành phố Hà Nội.</p>
+                            </div>
+                            <div class="_btn-view">
+                                <a href="#">Xem thêm <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="san-pham">
+            <div class="container">
+                <div class="row">
+                    <div class="_s-title">
+                        <p class="uppercase">sản phẩm</p>
+                    </div>
+                    <div class="col-sm-9 col-lg-9" id="product">
+                        <div class="_s-img-banner">
+                            <a href="">
+                                <img src="image/s_banner.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="row _list-product">
+                            <div class="col-xs-6 col-sm-3 _col-product">
+                                <div class="_box-img">
+                                    <a href="#">
+                                        <img src="image/sp1.jpg" alt="">
+                                    </a>
+                                    <span class="_sale">10%</span>
+                                </div>
+                                <div class="_title-product">
+                                    <a href="#" class="uppercase">SERUM DƯỠNG DA VÙNG MẮT SHISEIDO ULTIMUNE...</a>
+                                </div>
+                                <div class="_price">
+                                    <span class="_price-ov">1.800.000 VNĐ</span>
+                                    <span class="_price-und">2.500.000 VNĐ</span>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 _col-product">
+                                <div class="_box-img">
+                                    <a href="#">
+                                        <img src="image/sp2.jpg" alt="">
+                                    </a>
+                                    <span class="_sale">10%</span>
+                                </div>
+                                <div class="_title-product">
+                                    <a href="#" class="uppercase">SERUM DƯỠNG DA VÙNG MẮT SHISEIDO ULTIMUNE...</a>
+                                </div>
+                                <div class="_price">
+                                    <span class="_price-ov">1.800.000 VNĐ</span>
+                                    <span class="_price-und">2.500.000 VNĐ</span>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 _col-product">
+                                <div class="_box-img">
+                                    <a href="#">
+                                        <img src="image/sp3.jpg" alt="">
+                                    </a>
+                                    <span class="_sale">10%</span>
+                                </div>
+                                <div class="_title-product">
+                                    <a href="#" class="uppercase">SERUM DƯỠNG DA VÙNG MẮT SHISEIDO ULTIMUNE...</a>
+                                </div>
+                                <div class="_price">
+                                    <span class="_price-ov">1.800.000 VNĐ</span>
+                                    <span class="_price-und">2.500.000 VNĐ</span>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 _col-product">
+                                <div class="_box-img">
+                                    <a href="#">
+                                        <img src="image/sp4.jpg" alt="">
+                                    </a>
+                                    <span class="_sale">10%</span>
+                                </div>
+                                <div class="_title-product">
+                                    <a href="#" class="uppercase">SERUM DƯỠNG DA VÙNG MẮT SHISEIDO ULTIMUNE...</a>
+                                </div>
+                                <div class="_price">
+                                    <span class="_price-ov">1.800.000 VNĐ</span>
+                                    <span class="_price-und">2.500.000 VNĐ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3" id="product-suggestions">
+                        <div class="_col-title">
+                            <p class="uppercase">gợi ý dành cho bạn</p>
+                        </div>
+                        <div class="_list-product">
+                            <div class="_box-product">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="image/sp1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <a href="#" class="title-product uppercase">SON DƯỠNG MÔI CURÉL INTENSIVE MOISTURE CARE...</a>
+                                    <div class="_price">
+                                        <span class="_price-ov">1.800.000 VNĐ</span>
+                                        <span class="_price-und">2.500.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="_box-product">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="image/sp2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <a href="#" class="title-product uppercase">SON DƯỠNG MÔI CURÉL INTENSIVE MOISTURE CARE...</a>
+                                    <div class="_price">
+                                        <span class="_price-ov">1.800.000 VNĐ</span>
+                                        <span class="_price-und">2.500.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="_box-product">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="image/sp3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <a href="#" class="title-product uppercase">SON DƯỠNG MÔI CURÉL INTENSIVE MOISTURE CARE...</a>
+                                    <div class="_price">
+                                        <span class="_price-ov">1.800.000 VNĐ</span>
+                                        <span class="_price-und">2.500.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="_box-product">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="image/sp4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <a href="#" class="title-product uppercase">SON DƯỠNG MÔI CURÉL INTENSIVE MOISTURE CARE...</a>
+                                    <div class="_price">
+                                        <span class="_price-ov">1.800.000 VNĐ</span>
+                                        <span class="_price-und">2.500.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-load text-center"><a href="#" class="uppercase">xem thêm >></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dich-vu">
+            <div class="container">
+                <h3 class="_s-title uppercase text-center">-dịch vụ-</h3>
+                <h2 class="cty-name text-center">CÔNG TY TNHH TOMIBUN VIỆT NAM</h2>
+                <div class="_col-content">
+                    <button class="btn-slide btn_prev" id="btn_prev-dv"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                    <button class="btn-slide btn_next" id="btn_next-dv"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    <div class="_silder-dv">
+                        <div class="_box-slider">
+                            <div class="_box-img">
+                                <a href="#">
+                                    <img src="image/dv1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="_box-title">
+                                <a href="#" class="uppercase">chính sách mua hàng</a>
+                            </div>
+                        </div>
+                        <div class="_box-slider">
+                            <div class="_box-img">
+                                <a href="#">
+                                    <img src="image/dv2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="_box-title">
+                                <a href="#" class="uppercase">chính sách bảo mật, đổi trả</a>
+                            </div>
+                        </div>
+                        <div class="_box-slider">
+                            <div class="_box-img">
+                                <a href="#">
+                                    <img src="image/dv3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="_box-title">
+                                <a href="#" class="uppercase">chính sách vận chuyển</a>
+                            </div>
+                        </div>
+                        <div class="_box-slider">
+                            <div class="_box-img">
+                                <a href="#">
+                                    <img src="image/dv3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="_box-title">
+                                <a href="#" class="uppercase">chính sách vận chuyển</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="thu-vien">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6" id="col-video">
+                        <div class="_col-title">
+                            <p class="uppercase text-center">video</p>
+                        </div>
+                        <div class="_col-content">
+                            <button class="btn-slide btn_prev" id="btn_prev-video"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                            <button class="btn-slide btn_next" id="btn_next-video"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                            <div class="_slider-video">
+                                <div class="_box-video">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/p4cS3WcuKiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <div class="_title-video">
+                                        <p class="uppercase _title">[Livestream 12] Sức mạnh của ngôn từ ||</p>
+                                        <p class="_sub-text">TOMIBUN DRUGSTORE cửa hàng bán lẻ hóa – mỹ phẩm đầu tiên được ra đời cung cấp đa dạng các sản phẩm chính hãng chăm sóc sức khỏe và sắc đẹp</p>
+                                    </div>
+                                </div>
+                                <div class="_box-video">
+                                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/p4cS3WcuKiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                    <div class="_title-video">
+                                        <p class="uppercase _title">[Livestream 12] Sức mạnh của ngôn từ ||</p>
+                                        <p class="_sub-text">TOMIBUN DRUGSTORE cửa hàng bán lẻ hóa – mỹ phẩm đầu tiên được ra đời cung cấp đa dạng các sản phẩm chính hãng chăm sóc sức khỏe và sắc đẹp</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="col-image">
+                        <div class="_col-title">
+                            <p class="uppercase text-center">thư viện ảnh</p>
+                        </div>
+                        <div class="_col-content">
+                            <div class="_image-show">
+                                <img src="image/sl1-1.jpg" alt="" class="toggle-img">
+                            </div>
+                            <div class="_slider-image-asNav">
+                                <div class="_box-img">
+                                    <img src="image/sl1-1.jpg" alt="" onclick="imgSlider('image/sl1-1.jpg')">
+                                </div>
+                                <div class="_box-img">
+                                    <img src="image/sl2.jpg" alt="" onclick="imgSlider('image/sl2.jpg')">
+                                </div>
+                                <div class="_box-img">
+                                    <img src="image/sl3.jpg" alt="" onclick="imgSlider('image/sl3.jpg')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form-dk">
+            <div class="_content-box">
+                <form action="" method="">
+                    <p class="title-form uppercase">đăng ký nhận tin</p>
+                    <p class="text">Đăng ký tên đăng ký và nhận sản phẩm mới nhất, Giảm giá & đặc biệt !</p>
+                    <div class="_row-input" id="_row-input">
+                        <input type="email" name="email" id="_input-form" required placeholder="Nhập email tại đây">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <button type="submit" name="submit" class="uppercase">đăng ký</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="tin-tuc">
+            <div class="container">
+                <div class="row">
+                    <div class="s_title">
+                        <h3 class="uppercase text-center">tin tức nổi bật</h3>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="_box-content">
+                            <div class="_box-img">
+                                <a href="#"><img src="image/tt1.jpg" alt=""></a>
+                            </div>
+                            <div class="_title_img">
+                                <a href="#">"Hương thơm mỹ phẩm làm hại làn da của bạn?</a>
+                            </div>
+                            <div class="_date-up">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i><span>21 Tháng 12,2021</span>
+                            </div>
+                            <div class="_sub-text">
+                                <p>Nếu bạn đam mê chăm sóc da, đừng để bị đánh lừa bởi hương thơm trong tất cả các sản phẩm làm đẹp vì nó có thể gây hại làn da của bạn. </p>
+                            </div>
+                            <div class="_btn-view">
+                                <a href="#" class="uppercase">chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="_box-content">
+                            <div class="_box-img">
+                                <a href="#"><img src="image/tt2.jpg" alt=""></a>
+                            </div>
+                            <div class="_title_img">
+                                <a href="#">"Hương thơm mỹ phẩm làm hại làn da của bạn?</a>
+                            </div>
+                            <div class="_date-up">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i><span>21 Tháng 12,2021</span>
+                            </div>
+                            <div class="_sub-text">
+                                <p>Nếu bạn đam mê chăm sóc da, đừng để bị đánh lừa bởi hương thơm trong tất cả các sản phẩm làm đẹp vì nó có thể gây hại làn da của bạn. </p>
+                            </div>
+                            <div class="_btn-view">
+                                <a href="#" class="uppercase">chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="_box-content">
+                            <div class="_box-img">
+                                <a href="#"><img src="image/tt3.jpg" alt=""></a>
+                            </div>
+                            <div class="_title_img">
+                                <a href="#">"Hương thơm mỹ phẩm làm hại làn da của bạn?</a>
+                            </div>
+                            <div class="_date-up">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i><span>21 Tháng 12,2021</span>
+                            </div>
+                            <div class="_sub-text">
+                                <p>Nếu bạn đam mê chăm sóc da, đừng để bị đánh lừa bởi hương thơm trong tất cả các sản phẩm làm đẹp vì nó có thể gây hại làn da của bạn. </p>
+                            </div>
+                            <div class="_btn-view">
+                                <a href="#" class="uppercase">chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="_box-content">
+                            <div class="_box-img">
+                                <a href="#"><img src="image/tt4.jpg" alt=""></a>
+                            </div>
+                            <div class="_title_img">
+                                <a href="#">"Hương thơm mỹ phẩm làm hại làn da của bạn?</a>
+                            </div>
+                            <div class="_date-up">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i><span>21 Tháng 12,2021</span>
+                            </div>
+                            <div class="_sub-text">
+                                <p>Nếu bạn đam mê chăm sóc da, đừng để bị đánh lừa bởi hương thơm trong tất cả các sản phẩm làm đẹp vì nó có thể gây hại làn da của bạn. </p>
+                            </div>
+                            <div class="_btn-view">
+                                <a href="#" class="uppercase">chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="doi-tac">
+            <div class="container">
+                <div class="row">
+                    <div class="s_title">
+                        <h3 class="uppercase text-center">đối tác - khách hàng</h3>
+                    </div>
+                    <div class="_content-box">
+                        <div class="_logo-dt">
+                            <a href="#"><img src="image/dt1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="f-col_box">
+                        <div class="f-col_title">
+                            <p class="uppercase _title">thông tin liên hệ</p>
+                        </div>
+                        <div class="_box-content">
+                            <h3 class="uppercase">TOMIBUN COSMETIC</h3>
+                            <p>Địa chỉ: Tầng 2, tòa nhà 110-108 Linh Lang, Cống Vị, Ba Đình, Hà Nội</p>
+                            <p>Điện thoại: <a href="tel:02432069819">02432069819</a></p>
+                            <p>Email: <a href="mailto:tomibun.drugstore@gmail.com">tomibun.drugstore@gmail.com</a></p>
+                            <a href="#">
+                                <img src="image/dathongbao.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="f-col_box">
+                        <div class="f-col_title">
+                            <p class="uppercase _title">chính sách</p>
+                        </div>
+                        <div class="_box-content">
+                            <ul class="_list-item">
+                                <li><a href="#">Chính sách mua hàng</a></li>
+                                <li><a href="#">Chính sách bảo hành và đổi trả</a></li>
+                                <li><a href="#">Chính sách vận chuyển</a></li>
+                                <li><a href="#">Giao hàng tận nơi</a></li>
+                                <li><a href="#">Chính sách thanh toán</a></li>
+                                <li><a href="#">Chính sách sử lý khiếu nại</a></li>
+                                <li><a href="#">Chính sách vận chuyển giao nhận</a></li>
+                                <li><a href="#">Chính sách kiểm hàng/ đổi trả và hoàn tiền</a></li>
+                                <li><a href="#">Chính sách bảo mật thông tin</a></li>
+                                <li><a href="#">Chính sách kiểm hàng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="f-col_box">
+                        <div class="f-col_title">
+                            <p class="uppercase _title">bản đồ</p>
+                        </div>
+                        <div class="_box-content">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9907380429436!2d105.80753111424542!3d21.03305659300906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab6b158879e7%3A0x633b5e4cc5819d1e!2zMTA4IFAuIExpbmggTGFuZywgQ-G7kW5nIFbhu4ssIEJhIMSQw6xuaCwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1660115918295!5m2!1svi!2s"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="f-col_box">
+                        <div class="f-col_title">
+                            <p class="uppercase _title">facebook</p>
+                        </div>
+                        <div class="_box-content">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="331"
+                                style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12" id="_f-col-bottom">
+                    <div class="f-col_box">
+                        <h2 class="uppercase cty_name">Công ty TNHH Tomibun Việt Nam</h2>
+                        <p>GPKD số 0109037939 do Sở KH và ĐT TP Hà Nội cấp ngày 25/12/2019</p>
+                        <p>Địa Chỉ: Tầng 1, Tòa nhà DMC, số 535 Kim Mã, P. Ngọc Khánh, Q. Ba Đình, Tp. Hà Nội</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
